@@ -1,17 +1,2 @@
-## sample docker workflow with Node.js,MongoDB and NGiNX
-
-![](https://github.com/atahani/docker-workflow-sample/raw/master/sample_docker_workflow_diagram.png "Docker workflow diagram")
-
-#### simply clone repo and run docker-compose command
-
-```
-git clone https://github.com/atahani/docker-workflow-sample.git
-docker-compose up -d
-```
-
-#### for more information you can see this youtube video
-[![deploy docker workflow](http://img.youtube.com/vi/RrkZ9kMNvbA/0.jpg)](https://www.youtube.com/watch?v=RrkZ9kMNvbA)
-
-this sample is part of [docker tutorial](https://www.youtube.com/playlist?list=PL-0EQDLPE23MIruFZDPNoVytW_2N7xQ6f) in persian language by me.
-
-[Docker Tutorial slides](https://goo.gl/3mBvb5)
+## sample docker workflow with Node.js,MongoDB and NGiNX and apache
+related to virgool post: [link](https://virgool.io/@mohebbisadegh/%D8%AA%D8%B3%D8%AA-%D8%B3%D8%B1%D8%B9%D8%AA-apache-%D9%88-nginx-%D8%A8%D8%A7-%D8%B7%D8%B9%D9%85-%D8%AF%D8%A7%DA%A9%D8%B1-%D9%88-nodejs-ndt7jvoo9bvy)
