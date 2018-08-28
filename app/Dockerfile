@@ -1,4 +1,4 @@
-FROM node:9.4.0-slim
+FROM node:latest
 MAINTAINER "ahmad.tahani@gmail.com"
 
 RUN mkdir -p /nodejs/app

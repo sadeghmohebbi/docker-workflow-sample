@@ -1,5 +1,5 @@
 #set nginx base image
-FROM nginx:1.13
+FROM nginx:latest
 MAINTAINER "ahmad.tahani@gmail.com"
 
 # copy nginx custom configuration file to nginx configs

@@ -1,6 +1,6 @@
 # mongo DB
 db:
-  image: mongo:3.4.10
+  image: mongo:latest
   volumes:
     - data:/data/db
     - backup:/dump
@@ -29,9 +29,9 @@ nodejs_app_4:
     - db:our_mongodb
   restart: always
 
-# nginx
-nginx:
-  build: nginx/
+# apache
+apache:
+  build: apache/
   ports:
     - "80:80"
   links:
@@ -39,3 +39,5 @@ nginx:
     - nodejs_app_2:app_2
     - nodejs_app_3:app_3
     - nodejs_app_4:app_4
+  volumes:
+    - ./apache/loadbalancer.conf:/etc/apache2/conf-loadbalancer/loadbalancer.conf
